@@ -16,5 +16,5 @@ index.html will give you the Passed steps in the feature file.
  
 ![title](https://github.com/nipuniuthpala/images/blob/master/results.png)
 
-Further Improvements can be done using Cucimber Extent reporting as well.
+Further Improvements can be done using Cucumber Extent reporting as well.
 Also can have a config file for the input data.
