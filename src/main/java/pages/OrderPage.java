@@ -14,12 +14,10 @@ public class OrderPage extends LoginPage {
 
 
     public void clickTShirts() {
-        if (driver == null) {
-            System.out.println("error");
-        } else {
+       
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[3]/a")).click();
-        }
+            driver.findElement(By.xpath("(//a[@title=\"T-shirts\"])[2]")).click();
+       
 
     }
 
